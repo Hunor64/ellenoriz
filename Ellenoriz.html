@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elkuld</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <p>Megrendelő neve:</p>
+    <input  type="text" id="nev" onmouseenter="nevin()" onmouseleave="nevout()"><br>
+    <p>Megrendelő címe:</p>
+    <input type="text" id="cim" onmouseenter="cimin()" onmouseleave="cimout()"><br>
+    <p>Megrendelő telefonszáma:</p>
+    <input type="text" id="szam" value="+36" onmouseenter="szamin()" onmouseleave="szamout()"><br><br>
+    <input type="button" value="Elküld" onclick="elkuld()"><br>
+    <h1>Visszaigazolás!</h1>
+    <p id="nevv">Név: ?</p>
+    <p id="cimv">Cím: ?</p>
+    <p id="szamv">Telefomn: ?</p>
+</body>
+</html>
